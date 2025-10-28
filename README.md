@@ -20,7 +20,7 @@ Aqui se encontra documentado partes do arquivo do WPS e CADe SIMU separado por s
 
 ### Parte dos motores no WPS
 <p align="center">
-  <img src="images/WPS_Ladder_Motores" alt="IMAGEM 1" width="526px" />
+  <img src="images/WPS_Ladder_Motores.jpeg" alt="IMAGEM 1" width="526px" />
 </p>
 
 ## ▶️ GIF da Simulação
