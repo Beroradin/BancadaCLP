@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<screen number="2" passwordLevel="0" autoLogoff="false">
+    <component row="1" column="0" width="6" height="1">
+        <text text="2-Rev:" blink="false"/>
+    </component>
+    <component row="0" column="0" width="6" height="1">
+        <text text="1-Dir:" blink="false"/>
+    </component>
+    <component row="0" column="11" width="6" height="1">
+        <text text="3-Sof:" blink="false"/>
+    </component>
+    <component row="1" column="11" width="6" height="1">
+        <text text="4-Inv:" blink="false"/>
+    </component>
+    <component row="3" column="0" width="8" height="1">
+        <text text="Partida:" blink="false"/>
+    </component>
+    <component row="0" column="6" width="3" height="1">
+        <message variable="L1" update="200" defaultText="" defaultTextEnabled="false">
+            <message_table index="0" text="Off"/>
+            <message_table index="1" text="On"/>
+        </message>
+    </component>
+    <component row="1" column="6" width="3" height="1">
+        <message variable="L2" update="200" defaultText="" defaultTextEnabled="false">
+            <message_table index="0" text="Off"/>
+            <message_table index="1" text="On"/>
+        </message>
+    </component>
+    <component row="0" column="17" width="3" height="1">
+        <message variable="L3" update="200" defaultText="" defaultTextEnabled="false">
+            <message_table index="0" text="Off"/>
+            <message_table index="1" text="On"/>
+        </message>
+    </component>
+    <component row="1" column="17" width="3" height="1">
+        <message variable="L4" update="200" defaultText="" defaultTextEnabled="false">
+            <message_table index="0" text="Off"/>
+            <message_table index="1" text="On"/>
+        </message>
+    </component>
+    <component row="3" column="11" width="8" height="1">
+        <message variable="tempo_decorrido" update="200" defaultText="" defaultTextEnabled="false">
+            <message_table index="0" text=""/>
+            <message_table index="1" text="Aguarde:"/>
+            <message_table index="2" text="Aguarde:"/>
+            <message_table index="3" text="Aguarde:"/>
+            <message_table index="4" text="Aguarde:"/>
+            <message_table index="5" text="Aguarde:"/>
+            <message_table index="6" text="Aguarde:"/>
+            <message_table index="7" text="Aguarde:"/>
+            <message_table index="8" text="Aguarde:"/>
+            <message_table index="9" text="Aguarde:"/>
+            <message_table index="10" text=""/>
+        </message>
+    </component>
+    <component row="3" column="8" width="1" height="1">
+        <numeric_input variable="Tipo_partida" maximum="4.0" minimum="0.0" decimal_digits="0" leading_zeros="false"/>
+    </component>
+    <component row="3" column="19" width="1" height="1">
+        <message variable="tempo_decorrido" update="200" defaultText="" defaultTextEnabled="false">
+            <message_table index="0" text=""/>
+            <message_table index="1" text="9"/>
+            <message_table index="2" text="8"/>
+            <message_table index="3" text="7"/>
+            <message_table index="4" text="6"/>
+            <message_table index="5" text="5"/>
+            <message_table index="6" text="4"/>
+            <message_table index="7" text="3"/>
+            <message_table index="8" text="2"/>
+            <message_table index="9" text="1"/>
+            <message_table index="10" text=""/>
+        </message>
+    </component>
+    <button index="0" type_f1="SCREEN" type_f2="NONE">
+        <screen_number_f1>0</screen_number_f1>
+        <screen_number_f2>0</screen_number_f2>
+    </button>
+    <button index="1" type_f1="NONE" type_f2="NONE">
+        <screen_number_f1>0</screen_number_f1>
+        <screen_number_f2>0</screen_number_f2>
+    </button>
+    <button index="2" type_f1="NONE" type_f2="NONE">
+        <screen_number_f1>0</screen_number_f1>
+        <screen_number_f2>0</screen_number_f2>
+    </button>
+    <button index="3" type_f1="BIT" type_f2="NONE">
+        <screen_number_f1>0</screen_number_f1>
+        <screen_number_f2>0</screen_number_f2>
+        <bit_f1 variable="Desliga" input_value="MOMENTARY_ON"/>
+    </button>
+    <button index="4" type_f1="NONE" type_f2="NONE">
+        <screen_number_f1>0</screen_number_f1>
+        <screen_number_f2>0</screen_number_f2>
+    </button>
+    <button index="5" type_f1="NONE" type_f2="NONE">
+        <screen_number_f1>0</screen_number_f1>
+        <screen_number_f2>0</screen_number_f2>
+    </button>
+</screen>

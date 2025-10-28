@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LADDER xmlns:ns2="http://initialvariable.xmlclasses.xmleqmtapi.wps.weg.net/txt" revision="5">
+    <VARIABLE tag="K1" datatype="BOOL" initialvalue="0" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="K2" datatype="BOOL" initialvalue="0" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="TOF_INST_0" datatype="TOF" initialvalue="" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="true" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="Q3" datatype="BOOL" initialvalue="0" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="Reset" datatype="INT" initialvalue="0" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="K3" datatype="BOOL" initialvalue="0" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="K4" datatype="BOOL" initialvalue="0" value="" at="" address="" group="LOCAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <RUNG strName="Partida Direta do Motor" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Desliga " strArgSeparator=""/>
+            <ELEMENT strElementType="PARALLEL" strArguments="" strArgSeparator="">
+                <ELEMENT strElementType="FUNCTION" strLadderType="FB_COMPEQ" strArguments="Tipo_partida 1 " strArgSeparator=""/>
+                <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K1 " strArgSeparator=""/>
+            </ELEMENT>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Q3 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K2 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K3 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K4 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="K1 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO1 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Partida Reversa do Motor" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Desliga " strArgSeparator=""/>
+            <ELEMENT strElementType="PARALLEL" strArguments="" strArgSeparator="">
+                <ELEMENT strElementType="FUNCTION" strLadderType="FB_COMPEQ" strArguments="Tipo_partida 2 " strArgSeparator=""/>
+                <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K2 " strArgSeparator=""/>
+            </ELEMENT>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Q3 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K1 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K3 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K4 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="K2 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO2 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Partida com Soft Starter" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Desliga " strArgSeparator=""/>
+            <ELEMENT strElementType="PARALLEL" strArguments="" strArgSeparator="">
+                <ELEMENT strElementType="FUNCTION" strLadderType="FB_COMPEQ" strArguments="Tipo_partida 3 " strArgSeparator=""/>
+                <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K3 " strArgSeparator=""/>
+            </ELEMENT>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Q3 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K1 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K2 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K4 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="K3 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO3 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Partida com Inversor de Frequência" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Desliga " strArgSeparator=""/>
+            <ELEMENT strElementType="PARALLEL" strArguments="" strArgSeparator="">
+                <ELEMENT strElementType="FUNCTION" strLadderType="FB_COMPEQ" strArguments="Tipo_partida 4 " strArgSeparator=""/>
+                <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K4 " strArgSeparator=""/>
+            </ELEMENT>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Q3 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K1 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K2 " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="K3 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="K4 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO4 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Led - Partida Direta" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K1 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO5 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="L1 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Led - Partida Reversa" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K2 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO6 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="L2 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Led - Partida com Soft Starter" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K3 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO7 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="L3 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Led - Partida com Inversor de Frequência" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="K4 " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="DO8 " strArgSeparator=""/>
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="L4 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Temporizador para bloqueio de partida" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="Desliga " strArgSeparator=""/>
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NCCONTACT" strArguments="Q3 " strArgSeparator=""/>
+            <ELEMENT strElementType="FUNCTION" strLadderType="FB_TOF_V2" strArguments="10 1000=Second tempo_decorrido " strArgSeparator="" strInstance="TOF_INST_0"/>
+        </ELEMENT>
+        <ELEMENT strElementType="OUTPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="COIL" strLadderType="FB_DIRECTCOIL" strArguments="Q3 " strArgSeparator=""/>
+        </ELEMENT>
+    </RUNG>
+    <RUNG strName="Resetar a variavel de partida" strComment="">
+        <ELEMENT strElementType="INPUT" strArguments="" strArgSeparator="">
+            <ELEMENT strElementType="CONTACT" strLadderType="FB_NOCONTACT" strArguments="Desliga " strArgSeparator=""/>
+            <ELEMENT strElementType="FUNCTION" strLadderType="FB_STORE_V3" strArguments="Reset Tipo_partida " strArgSeparator=""/>
+        </ELEMENT>
+        <ELEMENT strElementType="FAKEOUTPUT" strArguments="" strArgSeparator=""/>
+    </RUNG>
+</LADDER>

@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<LADDER xmlns:ns2="http://initialvariable.xmlclasses.xmleqmtapi.wps.weg.net/txt" revision="5">
+    <VARIABLE tag="DI1" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 1">
+            <ns2:variable_language language="pt" text="Entrada digital 1"/>
+            <ns2:variable_language language="en" text="Digital input 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI2" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 2">
+            <ns2:variable_language language="pt" text="Entrada digital 2"/>
+            <ns2:variable_language language="en" text="Digital input 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI3" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 3">
+            <ns2:variable_language language="pt" text="Entrada digital 3"/>
+            <ns2:variable_language language="en" text="Digital input 3"/>
+            <ns2:variable_language language="es" text="Entrada digital 3"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI4" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 4">
+            <ns2:variable_language language="pt" text="Entrada digital 4"/>
+            <ns2:variable_language language="en" text="Digital input 4"/>
+            <ns2:variable_language language="es" text="Entrada digital 4"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI5" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 5">
+            <ns2:variable_language language="pt" text="Entrada digital 5"/>
+            <ns2:variable_language language="en" text="Digital input 5"/>
+            <ns2:variable_language language="es" text="Entrada digital 5"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI6" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 6">
+            <ns2:variable_language language="pt" text="Entrada digital 6"/>
+            <ns2:variable_language language="en" text="Digital input 6"/>
+            <ns2:variable_language language="es" text="Entrada digital 6"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI7" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 7">
+            <ns2:variable_language language="pt" text="Entrada digital 7"/>
+            <ns2:variable_language language="en" text="Digital input 7"/>
+            <ns2:variable_language language="es" text="Entrada digital 7"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI8" datatype="BOOL" initialvalue="0" value="" at="%IB" address="0" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 8">
+            <ns2:variable_language language="pt" text="Entrada digital 8"/>
+            <ns2:variable_language language="en" text="Digital input 8"/>
+            <ns2:variable_language language="es" text="Entrada digital 8"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI9" datatype="BOOL" initialvalue="0" value="" at="%IB" address="1" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 9">
+            <ns2:variable_language language="pt" text="Entrada digital 9"/>
+            <ns2:variable_language language="en" text="Digital input 9"/>
+            <ns2:variable_language language="es" text="Entrada digital 9"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI10" datatype="BOOL" initialvalue="0" value="" at="%IB" address="1" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 10">
+            <ns2:variable_language language="pt" text="Entrada digital 10"/>
+            <ns2:variable_language language="en" text="Digital input 10"/>
+            <ns2:variable_language language="es" text="Entrada digital 10"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI101" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 1 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 1 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 1 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 1 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI102" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 2 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 2 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 2 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 2 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI103" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 3 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 3 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 3 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 3 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI104" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 4 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 4 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 4 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 4 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI105" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 5 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 5 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 5 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 5 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI106" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 6 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 6 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 6 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 6 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI107" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 7 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 7 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 7 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 7 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI108" datatype="BOOL" initialvalue="0" value="" at="%IB" address="2" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 8 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 8 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 8 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 8 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI109" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 9 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 9 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 9 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 9 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI110" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 10 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 10 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 10 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 10 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI111" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 11 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 11 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 11 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 11 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI112" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 12 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 12 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 12 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 12 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI113" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 13 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 13 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 13 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 13 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI114" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 14 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 14 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 14 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 14 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI115" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 15 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 15 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 15 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 15 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI116" datatype="BOOL" initialvalue="0" value="" at="%IB" address="3" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 16 - Slot 1">
+            <ns2:variable_language language="pt" text="Entrada digital 16 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital input 16 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada digital 16 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI201" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 1 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 1 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 1 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 1 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI202" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 2 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 2 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 2 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 2 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI203" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 3 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 3 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 3 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 3 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI204" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 4 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 4 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 4 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 4 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI205" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 5 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 5 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 5 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 5 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI206" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 6 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 6 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 6 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 6 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI207" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 7 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 7 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 7 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 7 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI208" datatype="BOOL" initialvalue="0" value="" at="%IB" address="4" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 8 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 8 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 8 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 8 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI209" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 9 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 9 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 9 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 9 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI210" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 10 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 10 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 10 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 10 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI211" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 11 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 11 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 11 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 11 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI212" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 12 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 12 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 12 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 12 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI213" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 13 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 13 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 13 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 13 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI214" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 14 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 14 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 14 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 14 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI215" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 15 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 15 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 15 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 15 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DI216" datatype="BOOL" initialvalue="0" value="" at="%IB" address="5" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada digital 16 - Slot 2">
+            <ns2:variable_language language="pt" text="Entrada digital 16 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital input 16 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada digital 16 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI1" datatype="INT" initialvalue="0" value="" at="%IW" address="6" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 1">
+            <ns2:variable_language language="pt" text="Entrada analógica 1"/>
+            <ns2:variable_language language="en" text="Analog input 1"/>
+            <ns2:variable_language language="es" text="Entrada analógica 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI101" datatype="INT" initialvalue="0" value="" at="%IW" address="8" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 1 _ Slot 1">
+            <ns2:variable_language language="pt" text="Entrada analógica 1 _ Slot 1"/>
+            <ns2:variable_language language="en" text="Analog input 1 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada analógica 1 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI102" datatype="INT" initialvalue="0" value="" at="%IW" address="10" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 2 _ Slot 1">
+            <ns2:variable_language language="pt" text="Entrada analógica 2 _ Slot 1"/>
+            <ns2:variable_language language="en" text="Analog input 2 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada analógica 2 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI103" datatype="INT" initialvalue="0" value="" at="%IW" address="12" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 3 _ Slot 1">
+            <ns2:variable_language language="pt" text="Entrada analógica 3 _ Slot 1"/>
+            <ns2:variable_language language="en" text="Analog input 3 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada analógica 3 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI104" datatype="INT" initialvalue="0" value="" at="%IW" address="14" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 4 _ Slot 1">
+            <ns2:variable_language language="pt" text="Entrada analógica 4 _ Slot 1"/>
+            <ns2:variable_language language="en" text="Analog input 4 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada analógica 4 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI105" datatype="INT" initialvalue="0" value="" at="%IW" address="16" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 5 _ Slot 1">
+            <ns2:variable_language language="pt" text="Entrada analógica 5 _ Slot 1"/>
+            <ns2:variable_language language="en" text="Analog input 5 - Slot 1"/>
+            <ns2:variable_language language="es" text="Entrada analógica 5 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI201" datatype="INT" initialvalue="0" value="" at="%IW" address="18" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 1 _ Slot 2">
+            <ns2:variable_language language="pt" text="Entrada analógica 1 _ Slot 2"/>
+            <ns2:variable_language language="en" text="Analog input 1 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada analógica 1 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI202" datatype="INT" initialvalue="0" value="" at="%IW" address="20" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 2 _ Slot 2">
+            <ns2:variable_language language="pt" text="Entrada analógica 2 _ Slot 2"/>
+            <ns2:variable_language language="en" text="Analog input 2 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada analógica 2 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI203" datatype="INT" initialvalue="0" value="" at="%IW" address="22" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 3 _ Slot 2">
+            <ns2:variable_language language="pt" text="Entrada analógica 3 _ Slot 2"/>
+            <ns2:variable_language language="en" text="Analog input 3 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada analógica 3 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI204" datatype="INT" initialvalue="0" value="" at="%IW" address="24" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 4 _ Slot 2">
+            <ns2:variable_language language="pt" text="Entrada analógica 4 _ Slot 2"/>
+            <ns2:variable_language language="en" text="Analog input 4 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada analógica 4 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AI205" datatype="INT" initialvalue="0" value="" at="%IW" address="26" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Entrada analógica 5 _ Slot 2">
+            <ns2:variable_language language="pt" text="Entrada analógica 5 _ Slot 2"/>
+            <ns2:variable_language language="en" text="Analog input 5 - Slot 2"/>
+            <ns2:variable_language language="es" text="Entrada analógica 5 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO1" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 1">
+            <ns2:variable_language language="pt" text="Saída digital 1"/>
+            <ns2:variable_language language="en" text="Digital output 1"/>
+            <ns2:variable_language language="es" text="Salida digital 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO2" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 2">
+            <ns2:variable_language language="pt" text="Saída digital 2"/>
+            <ns2:variable_language language="en" text="Digital output 2"/>
+            <ns2:variable_language language="es" text="Salida digital 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO3" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 3">
+            <ns2:variable_language language="pt" text="Saída digital 3"/>
+            <ns2:variable_language language="en" text="Digital output 3"/>
+            <ns2:variable_language language="es" text="Salida digital 3"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO4" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 4">
+            <ns2:variable_language language="pt" text="Saída digital 4"/>
+            <ns2:variable_language language="en" text="Digital output 4"/>
+            <ns2:variable_language language="es" text="Salida digital 4"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO5" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 5">
+            <ns2:variable_language language="pt" text="Saída digital 5"/>
+            <ns2:variable_language language="en" text="Digital output 5"/>
+            <ns2:variable_language language="es" text="Salida digital 5"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO6" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 6">
+            <ns2:variable_language language="pt" text="Saída digital 6"/>
+            <ns2:variable_language language="en" text="Digital output 6"/>
+            <ns2:variable_language language="es" text="Salida digital 6"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO7" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 7">
+            <ns2:variable_language language="pt" text="Saída digital 7"/>
+            <ns2:variable_language language="en" text="Digital output 7"/>
+            <ns2:variable_language language="es" text="Salida digital 7"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO8" datatype="BOOL" initialvalue="0" value="" at="%QB" address="0" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 8">
+            <ns2:variable_language language="pt" text="Saída digital 8"/>
+            <ns2:variable_language language="en" text="Digital output 8"/>
+            <ns2:variable_language language="es" text="Salida digital 8"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO9" datatype="BOOL" initialvalue="0" value="" at="%QB" address="1" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 9">
+            <ns2:variable_language language="pt" text="Saída digital 9"/>
+            <ns2:variable_language language="en" text="Digital output 9"/>
+            <ns2:variable_language language="es" text="Salida digital 9"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO101" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 1 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 1 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 1 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 1 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO102" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 2 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 2 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 2 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 2 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO103" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 3 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 3 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 3 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 3 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO104" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 4 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 4 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 4 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 4 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO105" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 5 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 5 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 5 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 5 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO106" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 6 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 6 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 6 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 6 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO107" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 7 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 7 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 7 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 7 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO108" datatype="BOOL" initialvalue="0" value="" at="%QB" address="2" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 8 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 8 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 8 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 8 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO109" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 9 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 9 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 9 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 9 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO110" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 10 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 10 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 10 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 10 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO111" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 11 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 11 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 11 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 11 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO112" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 12 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 12 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 12 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 12 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO113" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 13 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 13 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 13 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 13 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO114" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 14 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 14 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 14 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 14 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO115" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 15 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 15 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 15 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 15 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO116" datatype="BOOL" initialvalue="0" value="" at="%QB" address="3" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 16 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída digital 16 - Slot 1"/>
+            <ns2:variable_language language="en" text="Digital output 16 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida digital 16 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO201" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 1 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 1 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 1 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 1 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO202" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 2 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 2 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 2 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 2 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO203" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 3 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 3 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 3 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 3 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO204" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 4 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 4 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 4 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 4 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO205" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 5 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 5 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 5 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 5 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO206" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 6 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 6 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 6 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 6 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO207" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 7 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 7 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 7 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 7 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO208" datatype="BOOL" initialvalue="0" value="" at="%QB" address="4" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 8 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 8 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 8 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 8 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO209" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 9 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 9 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 9 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 9 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO210" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="1" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 10 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 10 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 10 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 10 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO211" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="2" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 11 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 11 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 11 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 11 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO212" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="3" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 12 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 12 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 12 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 12 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO213" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="4" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 13 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 13 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 13 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 13 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO214" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="5" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 14 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 14 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 14 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 14 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO215" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="6" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 15 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 15 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 15 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 15 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="DO216" datatype="BOOL" initialvalue="0" value="" at="%QB" address="5" group="GLOBAL_IO" bit="7" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída digital 16 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída digital 16 - Slot 2"/>
+            <ns2:variable_language language="en" text="Digital output 16 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida digital 16 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AO1" datatype="INT" initialvalue="0" value="" at="%QW" address="6" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída analógica 1">
+            <ns2:variable_language language="pt" text="Saída analógica 1"/>
+            <ns2:variable_language language="en" text="Analog output 1"/>
+            <ns2:variable_language language="es" text="Salida analógica 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AO101" datatype="INT" initialvalue="0" value="" at="%QW" address="8" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída analógica 1 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída analógica 1 - Slot 1"/>
+            <ns2:variable_language language="en" text="Analog output 1 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida analógica 1 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AO102" datatype="INT" initialvalue="0" value="" at="%QW" address="10" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída analógica 2 - Slot 1">
+            <ns2:variable_language language="pt" text="Saída analógica 2 - Slot 1"/>
+            <ns2:variable_language language="en" text="Analog output 2 - Slot 1"/>
+            <ns2:variable_language language="es" text="Salida analógica 2 - Slot 1"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AO201" datatype="INT" initialvalue="0" value="" at="%QW" address="12" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída analógica 1 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída analógica 1 - Slot 2"/>
+            <ns2:variable_language language="en" text="Analog output 1 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida analógica 1 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="AO202" datatype="INT" initialvalue="0" value="" at="%QW" address="14" group="GLOBAL_IO" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="Saída analógica 2 - Slot 2">
+            <ns2:variable_language language="pt" text="Saída analógica 2 - Slot 2"/>
+            <ns2:variable_language language="en" text="Analog output 2 - Slot 2"/>
+            <ns2:variable_language language="es" text="Salida analógica 2 - Slot 2"/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="Desliga" datatype="BOOL" initialvalue="0" value="" at="%MB" address="" group="GLOBAL" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="L1" datatype="BOOL" initialvalue="0" value="" at="%MB" address="" group="GLOBAL" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="L2" datatype="BOOL" initialvalue="0" value="" at="%MB" address="" group="GLOBAL" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="tempo_decorrido" datatype="WORD" initialvalue="0" value="" at="%MW" address="" group="GLOBAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="$LITERAL1" datatype="BYTE" initialvalue="1" value="1" at="" address="2" group="GLOBAL_LITERAL" bit="" size="" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="$LITERAL2" datatype="BYTE" initialvalue="2" value="2" at="" address="3" group="GLOBAL_LITERAL" bit="" size="" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="$LITERAL4" datatype="BYTE" initialvalue="3" value="3" at="" address="4" group="GLOBAL_LITERAL" bit="" size="" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="L3" datatype="BOOL" initialvalue="0" value="" at="%MB" address="" group="GLOBAL" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="Tipo_partida" datatype="INT" initialvalue="0" value="" at="%MW" address="" group="GLOBAL" bit="" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="$LITERAL0" datatype="BYTE" initialvalue="4" value="4" at="" address="5" group="GLOBAL_LITERAL" bit="" size="" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="L4" datatype="BOOL" initialvalue="0" value="" at="%MB" address="" group="GLOBAL" bit="0" size="0" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+    <VARIABLE tag="$LITERAL5" datatype="WORD" initialvalue="10" value="10" at="" address="0" group="GLOBAL_LITERAL" bit="" size="" var_instance="false" var_struct="false" variableTooltip="" parameterId="">
+        <ns2:variable_text text="">
+            <ns2:variable_language language="pt" text=""/>
+        </ns2:variable_text>
+    </VARIABLE>
+</LADDER>

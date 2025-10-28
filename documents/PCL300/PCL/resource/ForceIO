@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<forceIO>
+    <slot_model name="PLC300">
+        <field_model name="DIGITAL_INPUT">
+            <digital_io enabled="false" value="false" name="DI1"/>
+            <digital_io enabled="false" value="false" name="DI2"/>
+            <digital_io enabled="false" value="false" name="DI3"/>
+            <digital_io enabled="false" value="false" name="DI4"/>
+            <digital_io enabled="false" value="false" name="DI5"/>
+            <digital_io enabled="false" value="false" name="DI6"/>
+            <digital_io enabled="false" value="false" name="DI7"/>
+            <digital_io enabled="false" value="false" name="DI8"/>
+            <digital_io enabled="false" value="false" name="DI9"/>
+            <digital_io enabled="false" value="false" name="DI10"/>
+        </field_model>
+        <field_model name="ANALOG_INPUT">
+            <analog_io enabled="false" value="0" name="AI1"/>
+        </field_model>
+        <field_model name="DIGITAL_OUTPUT">
+            <digital_io enabled="false" value="false" name="DO1"/>
+            <digital_io enabled="false" value="false" name="DO2"/>
+            <digital_io enabled="false" value="false" name="DO3"/>
+            <digital_io enabled="false" value="false" name="DO4"/>
+            <digital_io enabled="false" value="false" name="DO5"/>
+            <digital_io enabled="false" value="false" name="DO6"/>
+            <digital_io enabled="false" value="false" name="DO7"/>
+            <digital_io enabled="false" value="false" name="DO8"/>
+            <digital_io enabled="false" value="false" name="DO9"/>
+        </field_model>
+        <field_model name="ANALOG_OUTPUT">
+            <analog_io enabled="false" value="0" name="AO1"/>
+        </field_model>
+    </slot_model>
+    <slot_model name="SLOT1">
+        <field_model name="DIGITAL_INPUT">
+            <digital_io enabled="false" value="false" name="DI101"/>
+            <digital_io enabled="false" value="false" name="DI102"/>
+            <digital_io enabled="false" value="false" name="DI103"/>
+            <digital_io enabled="false" value="false" name="DI104"/>
+            <digital_io enabled="false" value="false" name="DI105"/>
+            <digital_io enabled="false" value="false" name="DI106"/>
+            <digital_io enabled="false" value="false" name="DI107"/>
+            <digital_io enabled="false" value="false" name="DI108"/>
+        </field_model>
+        <field_model name="ANALOG_INPUT">
+            <analog_io enabled="false" value="0" name="AI101"/>
+            <analog_io enabled="false" value="0" name="AI102"/>
+            <analog_io enabled="false" value="0" name="AI103"/>
+            <analog_io enabled="false" value="0" name="AI104"/>
+            <analog_io enabled="false" value="0" name="AI105"/>
+        </field_model>
+        <field_model name="DIGITAL_OUTPUT">
+            <digital_io enabled="false" value="false" name="DO101"/>
+            <digital_io enabled="false" value="false" name="DO102"/>
+            <digital_io enabled="false" value="false" name="DO103"/>
+            <digital_io enabled="false" value="false" name="DO104"/>
+            <digital_io enabled="false" value="false" name="DO105"/>
+            <digital_io enabled="false" value="false" name="DO106"/>
+            <digital_io enabled="false" value="false" name="DO107"/>
+            <digital_io enabled="false" value="false" name="DO108"/>
+        </field_model>
+        <field_model name="ANALOG_OUTPUT">
+            <analog_io enabled="false" value="0" name="AO101"/>
+            <analog_io enabled="false" value="0" name="AO102"/>
+        </field_model>
+    </slot_model>
+    <slot_model name="SLOT2">
+        <field_model name="DIGITAL_INPUT">
+            <digital_io enabled="false" value="false" name="DI201"/>
+            <digital_io enabled="false" value="false" name="DI202"/>
+            <digital_io enabled="false" value="false" name="DI203"/>
+            <digital_io enabled="false" value="false" name="DI204"/>
+            <digital_io enabled="false" value="false" name="DI205"/>
+            <digital_io enabled="false" value="false" name="DI206"/>
+            <digital_io enabled="false" value="false" name="DI207"/>
+            <digital_io enabled="false" value="false" name="DI208"/>
+        </field_model>
+        <field_model name="ANALOG_INPUT">
+            <analog_io enabled="false" value="0" name="AI201"/>
+            <analog_io enabled="false" value="0" name="AI202"/>
+            <analog_io enabled="false" value="0" name="AI203"/>
+            <analog_io enabled="false" value="0" name="AI204"/>
+            <analog_io enabled="false" value="0" name="AI205"/>
+        </field_model>
+        <field_model name="DIGITAL_OUTPUT">
+            <digital_io enabled="false" value="false" name="DO201"/>
+            <digital_io enabled="false" value="false" name="DO202"/>
+            <digital_io enabled="false" value="false" name="DO203"/>
+            <digital_io enabled="false" value="false" name="DO204"/>
+            <digital_io enabled="false" value="false" name="DO205"/>
+            <digital_io enabled="false" value="false" name="DO206"/>
+            <digital_io enabled="false" value="false" name="DO207"/>
+            <digital_io enabled="false" value="false" name="DO208"/>
+        </field_model>
+        <field_model name="ANALOG_OUTPUT">
+            <analog_io enabled="false" value="0" name="AO201"/>
+            <analog_io enabled="false" value="0" name="AO202"/>
+        </field_model>
+    </slot_model>
+</forceIO>

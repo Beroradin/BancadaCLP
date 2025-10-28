@@ -1,0 +1,16 @@
+// This file contains global variable declarations.
+VAR_GLOBAL
+(*  VAR222 : BOOL := 1;
+    VAR_BOOL : BOOL := true;
+    VAR_BYTE : BYTE := 2#1111_1111;
+    VAR_WORD : WORD := 65535;
+    VAR_DWORD : DWORD := 16#FFFF_FFFF; *)
+END_VAR
+
+VAR_GLOBAL RETAIN
+//  VAR2 AT %MB40000 : BOOL := 1;
+END_VAR 
+
+VAR_GLOBAL CONSTANT
+//  VAR3 : INT := 100;
+END_VAR

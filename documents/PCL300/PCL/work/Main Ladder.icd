@@ -1,0 +1,153 @@
+(*** BEGIN INTERMEDIATE CODE Main Ladder.xdd ***)
+
+(*** BEGIN RUNG 1: Partida Direta do Motor***)
+(*** BEGIN AUXILIARY RUNG FUNCTION BLOCK ***)
+LDN(Desliga)
+CAL COMP_EQ(Tipo_partida, $LITERAL1)
+ST($VX_0)
+(*** END AUXILIARY RUNG ***)
+(*** BEGIN MAIN RUNG ***)
+LD($VX_0)
+LDN(Desliga)
+ANDLD(K1)
+ORS
+LDN(Q3)
+ANDLDN(K2)
+ANDLDN(K3)
+ANDLDN(K4)
+ANDS
+(*** BEGIN OUTPUT ***)
+DUP
+ST(K1)
+ST(DO1)
+(*** END OUTPUT ***)
+(*** END MAIN RUNG ***)
+(*** END RUNG Partida Direta do Motor ***)
+
+(*** BEGIN RUNG 2: Partida Reversa do Motor***)
+(*** BEGIN AUXILIARY RUNG FUNCTION BLOCK ***)
+LDN(Desliga)
+CAL COMP_EQ(Tipo_partida, $LITERAL2)
+ST($VX_0)
+(*** END AUXILIARY RUNG ***)
+(*** BEGIN MAIN RUNG ***)
+LD($VX_0)
+LDN(Desliga)
+ANDLD(K2)
+ORS
+LDN(Q3)
+ANDLDN(K1)
+ANDLDN(K3)
+ANDLDN(K4)
+ANDS
+(*** BEGIN OUTPUT ***)
+DUP
+ST(K2)
+ST(DO2)
+(*** END OUTPUT ***)
+(*** END MAIN RUNG ***)
+(*** END RUNG Partida Reversa do Motor ***)
+
+(*** BEGIN RUNG 3: Partida com Soft Starter***)
+(*** BEGIN AUXILIARY RUNG FUNCTION BLOCK ***)
+LDN(Desliga)
+CAL COMP_EQ(Tipo_partida, $LITERAL4)
+ST($VX_0)
+(*** END AUXILIARY RUNG ***)
+(*** BEGIN MAIN RUNG ***)
+LD($VX_0)
+LDN(Desliga)
+ANDLD(K3)
+ORS
+LDN(Q3)
+ANDLDN(K1)
+ANDLDN(K2)
+ANDLDN(K4)
+ANDS
+(*** BEGIN OUTPUT ***)
+DUP
+ST(K3)
+ST(DO3)
+(*** END OUTPUT ***)
+(*** END MAIN RUNG ***)
+(*** END RUNG Partida com Soft Starter ***)
+
+(*** BEGIN RUNG 4: Partida com Inversor de Frequência***)
+(*** BEGIN AUXILIARY RUNG FUNCTION BLOCK ***)
+LDN(Desliga)
+CAL COMP_EQ(Tipo_partida, $LITERAL0)
+ST($VX_0)
+(*** END AUXILIARY RUNG ***)
+(*** BEGIN MAIN RUNG ***)
+LD($VX_0)
+LDN(Desliga)
+ANDLD(K4)
+ORS
+LDN(Q3)
+ANDLDN(K1)
+ANDLDN(K2)
+ANDLDN(K3)
+ANDS
+(*** BEGIN OUTPUT ***)
+DUP
+ST(K4)
+ST(DO4)
+(*** END OUTPUT ***)
+(*** END MAIN RUNG ***)
+(*** END RUNG Partida com Inversor de Frequência ***)
+
+(*** BEGIN RUNG 5: Led - Partida Direta***)
+LD(K1)
+(*** BEGIN OUTPUT ***)
+DUP
+ST(DO5)
+ST(L1)
+(*** END OUTPUT ***)
+(*** END RUNG Led - Partida Direta ***)
+
+(*** BEGIN RUNG 6: Led - Partida Reversa***)
+LD(K2)
+(*** BEGIN OUTPUT ***)
+DUP
+ST(DO6)
+ST(L2)
+(*** END OUTPUT ***)
+(*** END RUNG Led - Partida Reversa ***)
+
+(*** BEGIN RUNG 7: Led - Partida com Soft Starter***)
+LD(K3)
+(*** BEGIN OUTPUT ***)
+DUP
+ST(DO7)
+ST(L3)
+(*** END OUTPUT ***)
+(*** END RUNG Led - Partida com Soft Starter ***)
+
+(*** BEGIN RUNG 8: Led - Partida com Inversor de Frequência***)
+LD(K4)
+(*** BEGIN OUTPUT ***)
+DUP
+ST(DO8)
+ST(L4)
+(*** END OUTPUT ***)
+(*** END RUNG Led - Partida com Inversor de Frequência ***)
+
+(*** BEGIN RUNG 9: Temporizador para bloqueio de partida***)
+LD(Desliga)
+ANDLDN(Q3)
+CAL TOF_V2(TOF_INST_0, $LITERAL5, 1000=Second, tempo_decorrido)
+(*** BEGIN OUTPUT ***)
+ST(Q3)
+(*** END OUTPUT ***)
+(*** END RUNG Temporizador para bloqueio de partida ***)
+
+(*** BEGIN RUNG 10: Resetar a variavel de partida***)
+LD(Desliga)
+CAL STORE_V3(Reset, Tipo_partida)
+POP
+(*** END RUNG Resetar a variavel de partida ***)
+
+(*** RETURN TO SYSTEM ***)
+RTS
+
+(*** END INTERMEDIATE CODE Main Ladder.xdd ***)

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<varmap>
+    <relative_path relative_path="globals">
+        <filename filename="Visual.xtg">
+            <variable tag="Desliga">
+                <memory poucallindex="3" offset="4" bitsize="1" bit="0"/>
+            </variable>
+            <variable tag="L1">
+                <memory poucallindex="3" offset="4" bitsize="1" bit="1"/>
+            </variable>
+            <variable tag="L2">
+                <memory poucallindex="3" offset="4" bitsize="1" bit="2"/>
+            </variable>
+            <variable tag="L3">
+                <memory poucallindex="3" offset="4" bitsize="1" bit="3"/>
+            </variable>
+            <variable tag="L4">
+                <memory poucallindex="3" offset="4" bitsize="1" bit="4"/>
+            </variable>
+            <variable tag="Tipo_partida">
+                <memory poucallindex="3" offset="2" bitsize="16" bit="0"/>
+            </variable>
+            <variable tag="tempo_decorrido">
+                <memory poucallindex="3" offset="0" bitsize="16" bit="0"/>
+            </variable>
+        </filename>
+        <filename filename="Text.stv"/>
+    </relative_path>
+    <relative_path relative_path="ladderdiagram">
+        <filename filename="Main Ladder.xdd">
+            <variable tag="K1">
+                <memory poucallindex="257" offset="18" bitsize="1" bit="0"/>
+            </variable>
+            <variable tag="K2">
+                <memory poucallindex="257" offset="18" bitsize="1" bit="1"/>
+            </variable>
+            <variable tag="K3">
+                <memory poucallindex="257" offset="18" bitsize="1" bit="3"/>
+            </variable>
+            <variable tag="K4">
+                <memory poucallindex="257" offset="18" bitsize="1" bit="4"/>
+            </variable>
+            <variable tag="Q3">
+                <memory poucallindex="257" offset="18" bitsize="1" bit="2"/>
+            </variable>
+            <variable tag="Reset">
+                <memory poucallindex="257" offset="16" bitsize="16" bit="0"/>
+            </variable>
+            <variable tag="TOF_INST_0">
+                <memory poucallindex="257" offset="0" bitsize="128" bit="0"/>
+            </variable>
+        </filename>
+    </relative_path>
+</varmap>
