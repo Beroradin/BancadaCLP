@@ -74,3 +74,8 @@ Gif da Simulação no CADe SIMU de uma partida direta e o eventual desligamento 
 <p align="center">
   <img src="images/CadeSIMUGIF.gif" alt="GIF" width="1815px" />
 </p>
+
+## ▶️ Vídeo mostrando o funcionamento da bancada
+<p align="center">
+    <a href="https://www.youtube.com/shorts/qpB82FC35nQ">Clique aqui para acessar o vídeo</a>
+</p>
